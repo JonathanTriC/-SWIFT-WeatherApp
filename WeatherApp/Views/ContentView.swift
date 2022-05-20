@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var locationManager = LocationManager()
+    
     var body: some View {
         Text("Hello, world!")
             .padding()
